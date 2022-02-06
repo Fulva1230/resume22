@@ -27,7 +27,7 @@ education:
   courses:
   - course: 機械工程碩士
     institution: 國立臺灣大學
-    year: 2022
+    year: 預計2022
   - course: 機械工程學士
     institution: 國立臺灣科技大學
     year: 2020

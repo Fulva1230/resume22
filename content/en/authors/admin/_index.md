@@ -27,7 +27,7 @@ education:
   courses:
   - course: MEng in Mechanical Engineering
     institution: National Taiwan University
-    year: 2022
+    year: Expected 2022
   - course: BSc in Mechanical Engineering
     institution: National Taiwan University of Science and Technology
     year: 2020

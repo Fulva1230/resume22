@@ -10,30 +10,27 @@ role: Student of Mechanical Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Stanford University
-  url: https://www.stanford.edu/
+- name: National Taiwan University
+  url: https://www.ntu.edu.tw/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research and development interests include robotics, automatic control.
 
 # Interests to show in About widget
 interests:
-- Artificial Intelligence
-- Computational Linguistics
-- Information Retrieval
+- Robotics
+- Mathematics
+- Programming
 
 # Education to show in About widget
 education:
   courses:
-  - course: PhD in Artificial Intelligence
-    institution: Stanford University
-    year: 2012
-  - course: MEng in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2009
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: 2008
+  - course: MEng in Mechanical Engineering
+    institution: National Taiwan University
+    year: 2022
+  - course: BSc in Mechanical Engineering
+    institution: National Taiwan University of Science and Technology
+    year: 2020
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -73,11 +70,8 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+[<img src="https://www.codewars.com/users/Fulva1230/badges/micro" style="display: inline; margin: 0;" />](https://www.codewars.com/users/Fulva1230)
 
-Yun Shuo, Shi is a student of mechanical engineering at [APRILab](https://aprilabntu.wixsite.com/website). He has expertise in robotics, programming, kinematics, dynamics, automatic control as applied knowledges. For more theoretical materials, he has some abilities on calculus, geometry, probability, and statistics. He likes to study on a veriaty of subjects relating to mathematics because he believes that every engineering problem can be solved effectively with math. 
-
-Alice Bighetti is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am a student of mechanical engineering at [APRILab](https://aprilabntu.wixsite.com/website). I studied on control of a Mecanum wheeled platform. My contributions include proposing a useful dynamic model, proposing a effective controller, and conducting simulations and experiments to show the effectiveness of the controller. I can apply classic/analytical mechanics to model a mechanical linkage, and design a controller for it. I can also program many different projects, for examples, the frontend and backend of a web app, and programs run in a micro-controller. I use C++, Python, Javascript, Typescript, Kotlin, C# depending on the situation. I am familiar with many tools relating to software develement like Git, CMake, Gradle, SSH, and Docker. I am also familiar with Linux. I can complete a variety of tasks with a command-line. My dream career is something full of challenging, mathematics, and which can create lots of value.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/resume.pdf" "newtab" >}}resumé{{< /staticref >}}.

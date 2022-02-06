@@ -12,10 +12,26 @@ en:
 zh-hant:
  languageCode: zh-hant
  contentDir: content/zh-hant
+ title: 石耘碩
 #  params:
-#    description: Site description in Chinese...
-#  menu:
-#    main:
-#      - name: 传
-#        url: '#about'
-#        weight: 1
+  #  
+ menu:
+   main:
+    - name: 關於我
+      url: '#about'
+      weight: 10
+    - name: 文章
+      url: '#posts'
+      weight: 20
+    - name: 專案
+      url: '#projects'
+      weight: 30
+    - name: 會談
+      url: '#talks'
+      weight: 40
+    - name: 出版物
+      url: '#featured'
+      weight: 50
+    - name: 聯絡我
+      url: '#contact'
+      weight: 70

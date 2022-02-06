@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Yun Shuo, Shi (石耘碩) # Website name
+title: Yun Shuo, Shi # Website name
 baseurl: 'https://fulva1230.github.io/resume22/' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 

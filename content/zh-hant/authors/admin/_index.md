@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Alice Bighetti (吳恩達)
+title: Yun Shuo, Shi (石耘碩)
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: 機械工程所碩士學生
 
 # Organizations/Affiliations to show in About widget
 organizations:

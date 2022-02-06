@@ -1,12 +1,12 @@
 ---
 # Display name
-title: Alice Bighetti (吳恩達)
+title: Yun Shuo, Shi (石耘碩)
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Student of Mechanical Engineering
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -73,6 +73,8 @@ email: ""
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+
+Yun Shuo, Shi is a student of mechanical engineering at [APRILab](https://aprilabntu.wixsite.com/website). He has expertise in robotics, programming, kinematics, dynamics, automatic control as applied knowledges. For more theoretical materials, he has some abilities on calculus, geometry, probability, and statistics. He likes to study on a veriaty of subjects relating to mathematics because he believes that every engineering problem can be solved effectively with math. 
 
 Alice Bighetti is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
 

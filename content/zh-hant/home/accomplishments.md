@@ -23,30 +23,23 @@ date_format: Jan 2006
 #   Leave other parameters empty if not required.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
-- certificate_url: https://www.coursera.org
-  date_end: ""
-  date_start: "2021-01-25"
-  description: ""
-  organization: Coursera
-  organization_url: https://www.coursera.org
-  title: Neural Networks and Deep Learning
-  url: ""
-- certificate_url: https://www.edx.org
-  date_end: ""
-  date_start: "2021-01-01"
-  description: Formulated informed blockchain models, hypotheses, and use cases.
-  organization: edX
-  organization_url: https://www.edx.org
-  title: Blockchain Fundamentals
-  url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-- certificate_url: https://www.datacamp.com
-  date_end: "2020-12-21"
-  date_start: "2020-07-01"
-  description: ""
-  organization: DataCamp
-  organization_url: https://www.datacamp.com
-  title: 'Object-Oriented Programming in R'
-  url: ""
+- date_start: "2020-01-19"
+  organization: TOEIC
+  organization_url: https://www.toeic.com.tw/
+  title: TOEIC聽力與閱讀 905
+  url: https://www.toeic.com.tw/toeic/listening-reading/about/introduction/
+- date_start: "2019-11-25"
+  organization: MechaHeros Committee
+  organization_url: https://www.mechaheroestw.com/
+  title: 北區跨校機械.機電工程學系MechaHeroes專題製作競賽第一名
+  certificate_url: https://www.mechaheroestw.com/2019%e5%be%97%e7%8d%8e%e5%90%8d%e5%96%ae
+  url: https://www.mechaheroestw.com/
+- certificate_url: https://sites.google.com/site/ksvsmachine/jiao-xue-cheng-guo/equipmen
+  date_start: "2016-04-30"
+  organization: 技專院校入學測驗中心
+  organization_url: https://www.tcte.edu.tw/page_new.php
+  title: 四技二專統一入學測驗榜首
+  url: https://www.tcte.edu.tw/exam4.php
 
 design:
   columns: '2' 

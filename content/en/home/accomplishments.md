@@ -29,6 +29,7 @@ item:
     organization_url: https://www.toeic.com.tw/
     title: Graded 905 in TOEIC Listening and Reading
     url: https://www.toeic.com.tw/toeic/listening-reading/about/introduction/
+    certificate_url: https://imgur.com/a/73rtHsP
   - date_start: "2019-11-25"
     organization: MechaHeros Committee
     organization_url: https://www.mechaheroestw.com/

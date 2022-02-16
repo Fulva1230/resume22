@@ -15,6 +15,23 @@ subtitle:
 content:
   # Automatically link email and phone or display as text?
   autolink: true
+  email: noxdawn@gmail.com
+  phone: (+886) 938 778 331
+  address:
+    street: No. 1, Sec. 4, Roosevelt Rd.
+    city: Taipei
+    region: Da'an Dist.
+    postcode: '106216'
+    country: Republic of China
+    country_code: zh-TW
+  coordinates:
+    latitude: '25.01898'
+    longitude: '121.5409'
+  contact_links:
+    - icon: twitter
+      icon_pack: fab
+      name: DM Me
+      link: 'https://twitter.com/Fulva19'
   
 design:
   columns: '2'

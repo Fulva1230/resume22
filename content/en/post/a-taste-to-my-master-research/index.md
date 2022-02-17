@@ -15,7 +15,7 @@ date: "2022-02-16T12:00:00Z"
 lastmod: "2022-02-16T12:00:00Z"
 
 # Is this an unpublished draft?
-draft: true
+draft: false
 
 # Show this page in the Featured widget?
 featured: false
@@ -48,10 +48,14 @@ The motion of a MWP is a nonlinear system. To control it following a pre-defined
 
 Moreover, the controller is designed to be implemented easily like a PID controller. It doesn't need to simulate a MWP internally. As a result, there is no need to know the weight or dimension of a MWP to control it. It's beneficial because in practice, acquiring such information may be expensive. To implement the controller on a particular MWP, one only needs to program the control law in a micro-controller and tune the parameters. The controller is robust enough so that its performance is insensitive to parameter changes. If the selection of parameters falls in an acceptable range, then the performance is guaranteed.
 
-The following video shows the effectiveness of the proposed controller. The MWP is controlled to follow the red cuboid, which is animated. It is robust enough so that moving or inclined ground, which isn't normally encountered, can even be handled. In a situation like hitting an obstacle, which will abruptly impose an external force on the MWP, the controller can also respond quickly to minimize the distance to its target.
+The following video shows the effectiveness of the proposed controller. The MWP is controlled to follow a red cuboid, which is animated. It is robust enough so that moving or inclined ground, which isn't normally encountered, can even be handled. In a situation like hitting an obstacle, which will abruptly impose an external force on the MWP, the controller can also respond quickly to minimize the distance to its target.
 {{< youtube jj2g6hYVu0w >}}
 
-In the experiment, however, the MWP under control is not as smooth and stable as in the simulation, as in the following video. Mecanum wheels require a quite flat and clean ground. The meeting room in the video doesn't satisfy the condition. Moreover, the wheels were not installed on the base precisely enough since we prototyped the MWP quickly. Even a robust controller can not manage such a situation. Although the control in the experiment isn't as precise as in the simulation, stability is still well established. We conclude that the controller is sufficient powerful to be applied in practice.
+In the experiment, however, the MWP under control is not as smooth and stable as in the simulation, as in the following video. Mecanum wheels require a quite flat and clean ground. The meeting room in the video doesn't satisfy the condition. Moreover, the wheels were not installed on the base precisely enough since we prototyped the MWP quickly. Even a robust controller can not manage such a situation. Although the control in the experiment isn't as precise and smooth as in the simulation, stability is still well established. We conclude that the controller is sufficient powerful to be applied in practice.
 {{< youtube Ezhma4tzR4k >}}
 
-A potential application of the proposed controller is in autonomous mobile robots (AMR). An autonomous mobile robot should move without human interference. Without a controller, an MWP must be controlled by a driver or operator, which makes it not an AMR. On the other hand, if an AMR can generate a trajectory to follow with some artificial intelligence, with the controller, it can follow the trajectory without a mankind.
+A potential application of the proposed controller is in autonomous mobile robots (AMRs). An autonomous mobile robot should move without human interference. Without a controller, an MWP must be operated by a driver or operator, which makes it not an AMR. On the other hand, if an AMR can generate a trajectory to follow with some artificial intelligence, with the controller, it can follow the trajectory without a mankind. Then the whole process becomes human-free.
+
+Instead of considering where the controller can apply, during the research, I just tried my best to solve every problem I encountered. I didn't expect to make something big or valuable. It turned out that my attitude of considering every small problem really paid off.
+
+I am glad it's a success.

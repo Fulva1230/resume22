@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://fulva1230.github.io/resume22/sitemap.xml

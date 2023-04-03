@@ -5,6 +5,8 @@
 
 title: Yun Shuo, Shi # Website name
 baseURL: 'https://fulva1230.github.io/resume22/' # Website URL
+relativeURLS: true
+canonifyurls: true
 
 ############################
 ## LANGUAGE

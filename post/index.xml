@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts | Yun Shuo, Shi</title>
+    <link>https://fulva1230.github.io/resume22/post/</link>
+      <atom:link href="https://fulva1230.github.io/resume22/post/index.xml" rel="self" type="application/rss+xml" />
+    <description>Posts</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 16 Feb 2022 12:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://fulva1230.github.io/resume22/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png</url>
+      <title>Posts</title>
+      <link>https://fulva1230.github.io/resume22/post/</link>
+    </image>
+    
+    <item>
+      <title>Introduction to My Master Research</title>
+      <link>https://fulva1230.github.io/resume22/post/a-taste-of-my-master-research/</link>
+      <pubDate>Wed, 16 Feb 2022 12:00:00 +0000</pubDate>
+      <guid>https://fulva1230.github.io/resume22/post/a-taste-of-my-master-research/</guid>
+      <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A Mecanum wheeled platform (MWP) is a mobile platform able to move in any way. It can move forward and backward, laterally, and turn with a 0 radious. These movements can happen simultaneously so that a MWP can move in a straight line with a changing orientation, or it can move in any direction without changing its orientation as in Fig. &lt;a href=&#34;#figure-mwp_any_direction&#34;&gt;1&lt;/a&gt;.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-mwp_any_direction&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;A MWP can move in any direction without changing its orientation.&#34; srcset=&#34;
+               /post/a-taste-of-my-master-research/omnidirection_hu99c31b6678225446ea6e9c65b39f2b22_17150_169ae22050d1185087accef94599e97e.webp 400w,
+               /post/a-taste-of-my-master-research/omnidirection_hu99c31b6678225446ea6e9c65b39f2b22_17150_c612c96490b2cd90fae2420862fc2eb3.webp 760w,
+               /post/a-taste-of-my-master-research/omnidirection_hu99c31b6678225446ea6e9c65b39f2b22_17150_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;../post/a-taste-of-my-master-research/omnidirection_hu99c31b6678225446ea6e9c65b39f2b22_17150_169ae22050d1185087accef94599e97e.webp&#34;
+               width=&#34;313&#34;
+               height=&#34;330&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      A MWP can move in any direction without changing its orientation.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&#34;control&#34;&gt;Control&lt;/h2&gt;
+&lt;p&gt;The motion of a MWP is a nonlinear system. To control it to follow a pre-defined trajectory or a moving target, simply using linear control technique won&amp;rsquo;t work well. Rather, a nonlinear and more advanced approach is needed. To address the problem, I developed a controller based on a super-twisting controller. Tested in simulations and experiments, the controller was verified to be effective and robust.&lt;/p&gt;
+&lt;p&gt;Moreover, the controller is designed to be implemented easily like a PID controller. It doesn&amp;rsquo;t need to simulate an MWP internally. As a result, there is no need to know the weight or dimension of an MWP to control it. It&amp;rsquo;s beneficial because in practice, acquiring such information may be expensive. To implement the controller on a particular MWP, one only needs to program the control law in a micro-controller and tune the parameters. The controller is robust enough so that its performance is insensitive to parameter changes. If the selection of parameters falls in an acceptable range, then the performance is guaranteed.&lt;/p&gt;
+&lt;p&gt;The following video shows the effectiveness of the proposed controller. In the video, an MWP is controlled to follow a red cuboid, which is animated. The controller is robust enough so that moving or inclined grounds, which aren&amp;rsquo;t normally encountered, can even be handled. In a situation like hitting an obstacle, which will abruptly impose an external force on the MWP, the controller can also respond quickly to minimize the distance to its target.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/jj2g6hYVu0w&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;In the experiment, however, the MWP under control is not as smooth and stable as in the simulation, as in the following video. Mecanum wheels require a quite flat and clean ground. The meeting room in the video doesn&amp;rsquo;t satisfy the condition. Moreover, the wheels were not installed on the base precisely enough since we prototyped the MWP quickly. Even a robust controller can not manage such a situation. Although the control in the experiment isn&amp;rsquo;t as precise and smooth as in the simulation, stability is still well established. We conclude that the controller is sufficient powerful to be applied in practice.
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/Ezhma4tzR4k&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+&lt;p&gt;A potential application of the proposed controller is in autonomous mobile robots (AMRs). An autonomous mobile robot moves without human interference. Without a controller, an MWP must be operated by a driver or operator, which makes it not an AMR. On the other hand, if an MWP can generate a desired trajectory, with the controller, it can follow the trajectory without a mankind. In this way, The whole process is human-free. The MWP is certainly an AMR.&lt;/p&gt;
+&lt;p&gt;Instead of considering where the controller can apply, during the research, I just tried my best to solve every problem I encountered. I didn&amp;rsquo;t expect to make something big or valuable. It turned out that my attitude of dealing with every small problem really paid off.&lt;/p&gt;
+&lt;p&gt;I am glad it&amp;rsquo;s a success.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
